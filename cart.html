@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="shop.html">Katalog</a></li>
+                    <li><a href="blog.html">Ulasan</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                    <li id="lg-cart"><a class="active" href="cart.html"><i class="fas fa-cart-plus"></i></a></li>
+                    <a id="close"><i class="fa fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="cart-header">
+            <h2>#TerimaKasih</h2>
+            <p>Selamat berbelanja, bahagia selalu ᵔ ᵕ ᵔ</p>
+        </section>
+
+        <section id="cart" class="section-p1">
+           <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Hapus</td>
+                        <td>Gambar</td>
+                        <td>Produk</td>
+                        <td>Harga</td>
+                        <td>Jumlah</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"> <i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f1.jpg" alt=""></td>
+                        <td>Hustle Sleepy</td>
+                        <td>Rp 120.000</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rp 120.000</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"> <i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f2.jpg" alt=""></td>
+                        <td>Fixed Going Public</td>
+                        <td>Rp 120.000</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rp 120.000</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"> <i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f3.jpg" alt=""></td>
+                        <td>Heist</td>
+                        <td>Rp 120.000</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rp 120.000</td>
+                    </tr>
+                </tbody>
+           </table> 
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Gunakan Voucher</h3>
+                <div>
+                    <input type="text" placeholder="Masukkan Kode Voucher">
+                    <button class="normal">Pakai</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Total Belanja</h3>
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rp 360.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pengiriman</td>
+                        <td>Gratis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>Rp 360.000</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Bayar</button>
+            </div>
+
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Kontak</h4>
+                <p><strong>Alamat: </strong>Jl Sebentar No 123</p>
+                <p><strong>Telepon: </strong>08123456789</p>
+                <p><strong>Jam Buka: </strong>08:00 - 20:00, Setiap Hari</p>
+                <div class="follow">
+                    <h4>Ikuti Kami</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>Tentang</h4>
+                <a href="about.html">Tentang Kami</a>
+                <a href="#">Informasi Pengiriman</a>
+                <a href="#">Kebijakan Pribadi</a>
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="contact.html">Hubungi Kami</a>
+            </div>
+
+            <div class="col">
+                <h4>Akun</h4>
+                <a href="#">Daftar Akun</a>
+                <a href="cart.html">Keranjang</a>
+                <a href="#">Favorit</a>
+                <a href="#">Lacak Pesanan</a>
+                <a href="#">Bantuan</a>
+            </div>
+
+            <div class="col install">
+                <p>Secured Payment Gateway</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>© 2024, Hystoria Std</p>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
