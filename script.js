@@ -13,3 +13,12 @@ if (close){
         nav.classList.remove('active');
     })
 }
+
+document.querySelector('.form button').addEventListener('click', function() {
+    var email = document.querySelector('.form input').value;
+    if (email) {
+        alert("Terima kasih telah mendaftar!");
+    } else {
+        alert("Harap masukkan email Anda.");
+    }
+});
