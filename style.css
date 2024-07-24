@@ -174,61 +174,6 @@ color: #2d4091;
   font-size: 15px;
 }
 
-#feature{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-#feature .fe-box{
-  width: 180px;
-  text-align: center;
-  padding: 25px 15px;
-  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-  border: 1px solid #cce7d0;
-  border-radius: 4px;
-  margin-top: 15px;
-}
-
-#feature .fe-box:hover{
-  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1); 
-}
-
-#feature .fe-box img{
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-#feature .fe-box h6{
-  display: inline-block;
-  padding: 9px 8px 6px 8px;
-  line-height: 1;
-  border-radius: 4px;
-  color: #2d4091;
-  background-color: #fddde4;
-}
-
-#feature .fe-box:nth-child(2) h6{
-background-color: #cdebbc;
-}
-
-#feature .fe-box:nth-child(3) h6{
-  background-color: #d1e8f2;
-}
-
-#feature .fe-box:nth-child(4) h6{
-  background-color: #cdd4f8;
-}
-
-#feature .fe-box:nth-child(5) h6{
-  background-color: #f6dbf6;
-}
-
-#feature .fe-box:nth-child(6) h6{
-  background-color: #fff2e5;
-}
-
 #product1{
   text-align: center;
 }
@@ -304,35 +249,35 @@ background-color: #cdebbc;
   right: 10px;
 }
 
-#banner{
+#background{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(img/banner/b2.jpg);
+  background-image: url(img/background/b2.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
   background-position: center;
 }
 
-#banner h4{
+#background h4{
   color: #fff;
   font-size: 16px;
 }
 
-#banner h2{
+#background h2{
   color: #fff;
   font-size: 30px;
   padding: 10px 0;
 }
 
-#banner h2 span{
+#background h2 span{
   color: #ef3636;
 }
 
-#banner button:hover{
+#background button:hover{
   background: #2d4091;
   color: #fff;
 }
@@ -342,7 +287,7 @@ background-color: #cdebbc;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(img/banner/b14.png);
+  background-image: url(img/background/b14.png);
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
@@ -455,7 +400,7 @@ footer .copyright{
 /* Katalog */
 
 #page-header{
-  background-image: url(img/banner/b1.jpg);
+  background-image: url(img/background/b1.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -558,15 +503,15 @@ footer .copyright{
 
 /* Ulasan */
 
-#page-header.blog-header{
-  background-image: url(img/banner/b19.jpg);
+#page-header.ulasan-header{
+  background-image: url(img/background/b19.jpg);
 }
 
-#blog{
+#ulasan{
   padding: 150px 160px 0 160px;
 }
 
-#blog .blog-box{
+#ulasan .ulasan-box{
   display: flex;
   align-items: center;
   width: 100%;
@@ -574,27 +519,28 @@ footer .copyright{
   padding-bottom: 90px;
 }
 
-#blog .blog-img{
+#ulasan .ulasan-img{
   width: 30%;
-  margin-right: 40px;
+  margin-right: 30px;
+  margin-left: 60px;
 }
 
-#blog img{
-  width: 100%;
-  height: 300px;
+#ulasan img{
+  width: 50%;
+  height: 200px;
   object-fit: cover;
 }
 
-#blog .blog-details{
+#ulasan .ulasan-details{
   width: 50%;
 }
 
-#blog .blog-details i{
+#ulasan .ulasan-details i{
   font-size: 12px;
   color: rgb(243, 181, 25);
 }
 
-#blog .blog-details a{
+#ulasan .ulasan-details a{
   text-decoration: none;
   font-size: 11px;
   color: #000;
@@ -603,7 +549,7 @@ footer .copyright{
   transition: 0.3s;
 }
 
-#blog .blog-details a::after{
+#ulasan .ulasan-details a::after{
   content: "";
   width: 50px;
   height: 1px;
@@ -613,60 +559,61 @@ footer .copyright{
   right: -60px;
 }
 
-#blog .blog-details a:hover{
+#ulasan .ulasan-details a:hover{
   color: #2d4091;
 }
 
-#blog .blog-details a:hover::after{
+#ulasan .ulasan-details a:hover::after{
   background-color: #2d4091;
 }
 
-#blog .blog-box h1{
+#ulasan .ulasan-box h1{
   position: absolute;
   top: -40px;
   left: 0;
   font-size: 70px;
   font-weight: 700;
   color:#c9cbce;
+  margin-left: 60px;
   z-index: -9;
 }
 
 /* Tentang Kami */
 
-#page-header.about-header{
-  background-image: url(img/about/banner.png);
+#page-header.tentang-header{
+  background-image: url(img/tentang/background.png);
 }
 
-#about-head{
+#tentang-head{
   display: flex;
   align-items: center;
 }
 
-#about-head img{
+#tentang-head img{
   width: 50%;
   height: auto;
 }
 
-#about-head div{
+#tentang-head div{
   padding-left: 40px;
 }
 
-#about-app{
+#tentang-app{
   text-align: center;
 }
 
-#about-app span{
+#tentang-app span{
   color: #2d4091;
 }
 
-#about-app .video{
+#tentang-app .video{
   width: 70%;
   height: 100%;
   margin: 30px auto 0 auto;
   padding-bottom: 50px;
 }
 
-#about-app .video video{
+#tentang-app .video video{
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -675,60 +622,60 @@ footer .copyright{
 
 /* Kontak */
 
-#page-header.contact-header{
-  background-image: url(img/about/banner.png);
+#page-header.kontak-header{
+  background-image: url(img/tentang/background.png);
 }
 
-#contact-details{
+#kontak-details{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#contact-details .details{
+#kontak-details .details{
   width: 40%;
 }
 
-#contact-details .details span,
+#kontak-details .details span,
 #form-details form span{
   font-size: 12px;
 }
 
-#contact-details .details h2,
+#kontak-details .details h2,
 #form-details form h2{
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
 }
 
-#contact-details .details h3{
+#kontak-details .details h3{
   font-size: 16px;
   padding-bottom: 15px;
 }
 
-#contact-details .details li{
+#kontak-details .details li{
   list-style: none;
   display: flex;
   padding: 0 22px 12px 0;
 }
 
-#contact-details .details li i{
+#kontak-details .details li i{
   font-size: 14px;
   padding-right: 22px;
   color: #222;
 }
 
-#contact-details .details p{
+#kontak-details .details p{
   margin: 0;
   font-size: 14px;
 }
 
-#contact-details .map{
+#kontak-details .map{
   width: 55%;
   height: 400px;
 }
 
-#contact-details .map iframe{
+#kontak-details .map iframe{
   width: 100%;
   height: 100%;
 }
@@ -790,74 +737,74 @@ footer .copyright{
 
 /* Keranjang */
 
-#page-header.cart-header{
-  background-image: url(img/about/banner.png);
+#page-header.keranjang-header{
+  background-image: url(img/tentang/background.png);
 }
 
-#cart{
+#keranjang{
   overflow-x: auto;
 }
 
-#cart table{
+#keranjang table{
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
   white-space: nowrap;
 }
 
-#cart table img{
+#keranjang table img{
   width: 70px;
 }
 
-#cart table td:nth-child(1){
+#keranjang table td:nth-child(1){
   width: 100px;
   text-align: center;
 }
 
-#cart table td:nth-child(2){
+#keranjang table td:nth-child(2){
   width: 150px;
   text-align: center;
 }
 
-#cart table td:nth-child(3){
+#keranjang table td:nth-child(3){
   width: 250px;
   text-align: center;
 }
 
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6){
+#keranjang table td:nth-child(4),
+#keranjang table td:nth-child(5),
+#keranjang table td:nth-child(6){
   width: 150px;
   text-align: center;
 }
 
-#cart table td:nth-child(5) input{
+#keranjang table td:nth-child(5) input{
   width: 70px;
   padding: 10px 5px 10px 15px;
 }
 
-#cart table thead{
+#keranjang table thead{
   border: 1px solid #e2e9e1;
   border-left: none;
   border-right: none;
 }
 
-#cart table thead td{
+#keranjang table thead td{
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
   padding: 18px 0;
 }
 
-#cart table tbody tr td{
+#keranjang table tbody tr td{
   padding-top: 15px;
 }
 
-#cart table tbody tr{
+#keranjang table tbody tr{
   font-size: 13px;
 }
 
-#cart-add{
+#keranjang-add{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -961,7 +908,7 @@ footer .copyright{
     font-size: 24px;
   }
 
-  #lg-cart{
+  #lg-keranjang{
     display: none;
   }
 
@@ -969,14 +916,6 @@ footer .copyright{
     height: 70vh;
     padding: 0 80px;
     background-position: top 30% right 30%;
-  }
-
-  #feature{
-    justify-content: center;
-  }
-
-  #feature .fe-box{
-    margin: 15px 15px;
   }
 
   #product1 .pro-container{
@@ -987,7 +926,7 @@ footer .copyright{
     margin: 15px;
   }
 
-  #banner{
+  #background{
     height: 24vh;
   }
 
@@ -1028,20 +967,11 @@ footer .copyright{
     background-position: 55%;
   }
 
-  #feature{
-    justify-content: space-between;
-  }
-
-  #feature .fe-box{
-    width: 155px;
-    margin: 0 10px 24px;
-  }
-
   #product1 .pro{
     width: 100%;
   }
 
-  #banner{
+  #background{
     height: 30vh;
   }
 
@@ -1067,49 +997,49 @@ footer .copyright{
     width: 100%;
   }
 
-  #blog{
+  #ulasan{
     padding: 100px 20px 0 20px;
   }
 
-  #blog .blog-box{
+  #ulasan .ulasan-box{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
-  #blog .blog-img{
+  #ulasan .ulasan-img{
     width: 100%;
     margin-right: 0px;
     margin-bottom: 30px;
   }
 
-  #blog .blog-details{
+  #ulasan .ulasan-details{
     width: 100%;
   }
 
-  #about-head{
+  #tentang-head{
     flex-direction: column;
   }
 
-  #about-head img{
+  #tentang-head img{
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #about-head div{
+  #tentang-head div{
     padding-left: 0px;
   }
 
-  #about-app .video{
+  #tentang-app .video{
     width: 100%;
   }
 
-  #contact-details{
+  #kontak-details{
     flex-direction: column;
     margin-bottom: 30px;
   }
 
-  #contact-details .map{
+  #kontak-details .map{
     width: 100%;
   }
 
@@ -1124,7 +1054,7 @@ footer .copyright{
     margin-bottom: 30px;
   }
 
-  #cart-add{
+  #keranjang-add{
     flex-direction: column;
   }
 
