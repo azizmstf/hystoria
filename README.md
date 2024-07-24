@@ -1,2 +1,2 @@
 # hystoria
-Hystoria Clothing Store
+Hystoria Clothing Store merupakan project untuk memenuhi laporan ujian akhir semester 
